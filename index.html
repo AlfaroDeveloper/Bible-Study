@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>BIBLE STUDY</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul class="nav-link-list">
+                <li id="logo"><a id="logo-link" class="nav-link" href="#">BIBLE STUDY</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Showcase Title -->
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light ">BIBLE STUDY</h1>
+                <p class="lead text-muted">Is An Open Source Tool To Help Believers Study The Word Of God. We Have
+                    Collected Information All On One Site To Help You Learn More Without All The Adds</p>
+                <p>
+                    <a href="about.html" class="btn btn-primary my-2">Books</a>
+                    <a href="#" class="btn btn-secondary my-2">GitHub</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cards -->
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-xl-3 g-3">
+                <!-- Genesis -->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="./images/genesis.jpg" class="bd-placeholder-img card-img-top" alt="image">
+                        <div class="card-body">
+                            <h4>Genesis</h4>
+                            <p class="card-text">
+                                The first phrase in the Hebrew text of 1:1 is bereshith ("in [the] beginning"), which is
+                                also the Hebrew title of the book (books in ancient times customarily were named after
+                                their first word or two). The English title, Genesis, is Greek in origin and comes from
+                                the word geneseos, which appears in the pre-Christian Greek translation (Septuagint) of
+                                2:4; 5:1. Depending on its context, the word can mean "birth," "genealogy," or "history
+                                of origin." In both its Hebrew and Greek forms, then, the traditional title of Genesis
+                                appropriately describes its contents, since it is primarily a book of beginnings.
+                            </p>
+                            <div class="d-flex justify-content-between align-item-center">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm btn-outline-secondary" type="button">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Exodus -->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="./images/exodus.jpg" class="bd-placeholder-img card-img-top" alt="image">
+                        <div class="card-body">
+                            <h4>Exodus</h4>
+                            <p class="card-text">
+                                "Exodus" is a Latin word derived from Greek Exodos, the name given to the book by those
+                                who translated it into Greek. The word means "exit," "departure" (see Lk 9:31; Heb
+                                11:22). The name was retained by the Latin Vulgate, by the Jewish author Philo (a
+                                contemporary of Christ) and by the Syriac version. In Hebrew the book is named after its
+                                first two words, we'elleh shemoth ("These are the names of"). The same phrase occurs in
+                                Ge 46:8, where it likewise introduces a list of the names of those Israelites "who went
+                                to Egypt with Jacob" (1:1). Thus Exodus was not intended to exist separately, but was
+                                thought of as a <span id="dots"></span><span id="more" class="moretext">continuation of
+                                    a narrative that began in Genesis and was completed in
+                                    Leviticus, Numbers and Deuteronomy. The first five books of the Bible are together
+                                    known
+                                    as the Pentateuch (see Introduction to Genesis: Author and Date of Writing).
+                                </span>
+                                <button onclick="Exodus()" id="myBtn">More...</button>
+                            </p>
+
+                            <div class="d-flex justify-content-between align-item-center">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm btn-outline-secondary" type="button">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Leviticus -->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="./images/temple.jpg" class="bd-placeholder-img card-img-top" height="235" alt="image">
+                        <div class="card-body">
+                            <h4>Leviticus</h4>
+                            <p class="card-text">
+                                Leviticus receives its name from the Septuagint (the pre-Christian Greek translation of
+                                the OT) and means "relating to the Levites." Its Hebrew title, wayyiqra', is the first
+                                word in the Hebrew text of the book and means "And he [i.e., the Lord] called." Although
+                                Leviticus does not deal only with the special duties of the Levites, it is so named
+                                because it concerns mainly the service of worship at the tabernacle, which was conducted
+                                by the priests who were the sons of Aaron, assisted by many from the rest of the tribe
+                                of Levi. Exodus gave the directions for building the tabernacle, and now Leviticus
+                                gives<span id="dots"></span><span id="lev" class="moretext">
+                                    the laws and regulations for worship there, including instructions on ceremonial
+                                    cleanness, moral laws, holy days, the sabbath year and the Year of Jubilee. These
+                                    laws
+                                    were given, at least for the most part, during the year that Israel camped at Mount
+                                    Sinai, when God directed Moses in organizing Israel's worship, government and
+                                    military
+                                    forces. The book of Numbers continues the history with preparations for moving on
+                                    from
+                                    Sinai to Canaan.
+                                </span>
+                                <button onclick="Leviticus()" id="levMyBtn">More...</button>
+                            </p>
+                            <div class="d-flex justify-content-between align-item-center">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm btn-outline-secondary" type="button">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Numbers -->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="./images/numbers.jpg" class="bd-placeholder-img card-img-top" alt="image">
+                        <div class="card-body">
+                            <h4>Numbers</h4>
+                            <p class="card-text">
+                                The English name of the book comes from the Septuagint (the pre-Christian Greek
+                                translation of the OT) and is based on the census lists found in chs. 1; 26. The Hebrew
+                                title of the book (bemidbar, "in the desert") is more descriptive of its contents.
+                                Numbers presents an account of the 38-year period of Israel's wandering in the desert
+                                following the establishment of the covenant of Sinai (compare 1:1 with Dt 1:1).
+                            </p>
+                            <br> <br>
+                            <div class="d-flex justify-content-between align-item-center">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm btn-outline-secondary" type="button">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Deuteronomy -->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="./images/laws.jpg" class="bd-placeholder-img card-img-top" height="235" alt="image">
+                        <div class="card-body">
+                            <h4>Deuteronomy</h4>
+                            <p class="card-text">
+                                The Hebrew name of the book is �elleh haddebarim ("These are the words") or, more
+                                simply, debarim ("words"; see 1:1). The word "Deuteronomy" (meaning "repetition of the
+                                law") arose from a mistranslation in the Septuagint (the pre-Christian Greek translation
+                                of the OT) and the Latin Vulgate of a phrase in Dt 17:18, which in Hebrew means "copy of
+                                this law." The error is not serious, however, since Deuteronomy is, in a certain sense,
+                                a "repetition of the law" (see Structure and Outline).
+
+                            </p>
+                            <div class="d-flex justify-content-between align-item-center">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm btn-outline-secondary" type="button">View</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
