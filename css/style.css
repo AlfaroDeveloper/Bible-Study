@@ -86,10 +86,7 @@ nav{
 
 /* Genesis */
 #genesis{
-    background: url('/images/genesis.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 40% 20%;
+   background-color: #000;
 }
 #headingOne{
     font-family: var(--text-font);
