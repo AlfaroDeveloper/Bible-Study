@@ -83,3 +83,19 @@ nav{
     padding: 0;
     border: none;
 }
+
+/* Genesis */
+#genesis{
+    background: url('/images/genesis.jpg');
+    background-repeat: no-repeat;
+    background-position: 40% 20%;
+}
+#headingOne{
+    font-family: var(--text-font);
+}
+#headingTwo{
+    font-family: var(--text-font);
+}
+#headingThree{
+    font-family: var(--text-font);
+}
